@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(62, 44, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 1400px;
+    background-color: white;
+    margin: 10px auto;
+}
+.superior{
+    background-color: crimson;
+    overflow: hidden;
+}
+.logo{
+    float: right;
+    width: 300px;
+    padding: 20px;
+}
+.menu{
+    float: left;
+    padding: 50px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.opciones li a:hover{
+    background-color: rgb(227, 56, 90);
+}
+.cuerpo, .inicio, .enlaces{
+    overflow: hidden;
+}
+.izq_banner{
+    width: 70%;
+    float: left;
+}
+.der_enlaces{
+    width: 30%;
+    float: left;
+}
+.banner{
+    width: 960px;
+    height: 360px;
+}
+.div_enlace{
+    width: 50%;
+    float: left;
+}
+.img_enlace{
+    width: 200px;
+    height: auto;
+    padding: 8px;
+}
+.a_enlace{
+    margin-top: 60px;
+    text-align: center;
+}
+.enlaces_img{
+    text-decoration: none;
+    cursor: pointer;
+}
+.caja{
+    float: left;
+    width: 442px;
+    margin: 10px;
+    border: 1px solid;
+}
+.subtitulo{
+    background-color: darkgray;
+}
+.servicio{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.imagenes{
+    width: 442px;
+    height: auto;
+}
+.imagenes:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.contenido{
+    padding: 15px;
+    text-align: center;
+}
+.boton{
+    padding: 15px 20px;
+    margin: 20px 0;
+    color: white;
+    background-color: crimson;
+}
+.boton:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    color: #ff7600;
+    font-size: 35px;
+}
+.piepagina{
+    background-color: crimson;
+}
+.izquierdo{
+    float: left;
+    width: 650px;
+    padding: 20px;
+}
+.derecho{
+    float: left;
+    width: 650px;
+    padding: 20px;
+}
