@@ -184,11 +184,3 @@ body{
 #txt_beneficio{
     text-align: justify;
 }
-#linea{
-    width: 95%;
-    height: 1px;
-    background-color: rgb(243, 241, 241);
-    border: none;
-    margin-top: 2px;
-    margin-bottom: 10px;
-}
