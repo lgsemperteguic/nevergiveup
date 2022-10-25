@@ -4,8 +4,9 @@
 }
 
 body{
-    background-color: rgb(62, 44, 58);
+    background-color: #5e5e84;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2c2e35;
 }
 
 .container{
@@ -105,7 +106,7 @@ body{
     text-align: center;
 }
 .boton:hover{
-    background-color: brown;
+    background-color: rgb(255, 94, 126);
     cursor: pointer;
 }
 .titulo{
@@ -116,6 +117,7 @@ body{
 }
 .piepagina{
     background-color: crimson;
+    height: 15px;
 }
 .izquierdo{
     float: left;
@@ -135,10 +137,50 @@ body{
     padding: 8px;
 }
 #texto_info{
-    padding: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
     text-align: justify;
 }
 #texto_info2{
-    padding: 10px 25px 25px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+#txt_name{
+    color: #5e5e84;
+    font-weight: 800;
+}
+.div_conversion{
+    margin-top: 10px;
+}
+#img_aside{
+    width: 400px;
+    height: auto;
+}
+.input_conversion{
+    width: 400px;
+    margin: 15px;
+    padding: 8px;
+}
+.boton_conversion{
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-right: 22px;
+    color: white;
+    background-color: crimson;
+    text-align: center;
+    float: right;
+}
+.boton_conversion:hover{
+    background-color: rgb(255, 94, 126);
+    cursor: pointer;
+}
+.txt_final{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: justify;
+}
+#txt_beneficio{
     text-align: justify;
 }
